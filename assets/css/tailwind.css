@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    word-break: keep-all;
+    @apply antialiased;
+    
+    @apply bg-white;
+    @apply text-gray-800;
+  }
+}
+
