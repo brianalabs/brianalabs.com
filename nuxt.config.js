@@ -25,5 +25,11 @@ export default {
     { path: '~/components', prefix: 'vue' },
   ],
   env: process.env,
+  plugins: [
+    { src: '~/plugins/vue-scroll-reveal', ssr: false }
+  ],
+  modules: [
+    ['vue-scrollto/nuxt', { duration: 1000, easing: 'ease' }],
+  ],
   buildModules: ['@nuxtjs/tailwindcss']
 }

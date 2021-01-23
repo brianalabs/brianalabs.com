@@ -4,6 +4,7 @@
       <vue-container>
         <div :class="['relative', 'pb-48']">
           <h1
+            v-scroll-reveal.reset
             :class="[
               'font-extrabold',
               'max-w-xs md:max-w-md lg:max-w-xl',
@@ -20,6 +21,7 @@
 
           <div :class="['text-sm md:text-base lg:text-lg']">
             <div
+              v-scroll-reveal.reset="{ delay: 100 }"
               :class="[
                 'pt-4 md:pt-6 lg:pt-8',
                 'max-w-xs md:max-w-md lg:max-w-lg'
@@ -34,6 +36,7 @@
             </div>
 
             <div
+              v-scroll-reveal.reset="{ delay: 150 }"
               :class="[
                 'inline-flex flex-col items-center',
                 'w-full md:w-auto',
@@ -51,7 +54,9 @@
                 <strong class="text-primary-100 font-bold">스토커</strong>가 곧
                 출시됩니다!</a
               >
-              <button
+              <a
+                href="#"
+                v-scroll-to="'#briana-stocker'"
                 :class="[
                   'inline-flex items-center',
                   'mt-3',
@@ -73,11 +78,12 @@
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
 
           <img
+            v-scroll-reveal.reset="{ delay: 200 }"
             src="/crypto.svg"
             :class="['absolute right-0 bottom-0', 'w-56 md:w-72 lg:w-96']"
           />
@@ -87,8 +93,75 @@
 
     <main class="py-10">
       <vue-container>
-        <section>
-          <h2>브리아나 스토커</h2>
+        <section id="briana-stocker">
+          <div>
+            <div v-scroll-reveal.reset>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                :class="[
+                  'bg-gradient-to-br from-primary-500 to-primary-600',
+                  'rounded-lg',
+                  'p-2',
+                  'w-10 h-10'
+                ]"
+              >
+                <path
+                  d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
+                />
+              </svg>
+            </div>
+            <div
+              v-scroll-reveal.reset="{ delay: 100 }"
+              :class="['uppercase text-primary-600 font-semibold', 'mt-2']"
+            >
+              크롬 확장 프로그램
+            </div>
+            <h2
+              v-scroll-reveal.reset="{ delay: 150 }"
+              :class="['font-bold', 'text-3xl']"
+            >
+              브리아나 스토커
+            </h2>
+            <p
+              v-scroll-reveal.reset="{ delay: 200 }"
+              :class="[
+                'py-4',
+                'max-w-lg',
+                'text-gray-400',
+                'text-sm md:text-base'
+              ]"
+            >
+              브라우저 사용 중에 단축키를 눌러 지정해둔 가상화폐 시세를 빠르게
+              확인하세요. 업비트에서 제공하는 데이터와 웹 소켓 기술을 이용해
+              <b class="font-semibold text-gray-100">100% 실시간</b> 가상화폐
+              데이터를 제공합니다.
+            </p>
+          </div>
+          <div class="my-10" v-scroll-reveal.reset="{ delay: 250 }">
+            <div class="relative max-w-md mx-auto">
+              <div
+                :class="[
+                  'absolute rounded-lg inset-0 shadow-lg',
+                  'bg-gradient-to-r from-primary-400 to-primary-500',
+                  'transform skew-y-0 -rotate-6 rounded-3xl'
+                ]"
+              ></div>
+              <div
+                :class="[
+                  'p-4 bg-gray-800 relative shadow-lg rounded-3xl overflow-hidden',
+                  'border border-gray-900 border-opacity-40'
+                ]"
+              >
+                <img
+                  src="/chrome_webstore_screenshot.png"
+                  alt="chrome-webstore-screenshot"
+                  class=""
+                />
+              </div>
+            </div>
+          </div>
         </section>
       </vue-container>
     </main>

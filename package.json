@@ -10,7 +10,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vue-scroll-reveal": "^1.0.11",
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.4.2",
