@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <vue-container class="relative">
-      <div class="flex items-center py-2 absolute">
+    <vue-container>
+      <div class="flex items-center py-2">
         <n-link to="/">
           <img
             src="/logo.svg"

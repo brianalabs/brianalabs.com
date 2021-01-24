@@ -1,6 +1,8 @@
 <template>
   <div>
-    <header :class="['bg-pattern', 'pt-20 pb-10 md:py-24']">
+    <header
+      :class="['bg-pattern', 'pt-20 pb-10', 'md:pt-24 pb-20', 'lg:pt-44']"
+    >
       <vue-container>
         <div :class="['relative', 'pb-48']">
           <h1

@@ -1,8 +1,10 @@
 <template>
   <div id="default__layout">
-    <vue-navigation-bar />
+    <vue-navigation-bar class="absolute inset-x-0 top-0" />
 
-    <nuxt-child />
+    <div>
+      <nuxt-child />
+    </div>
 
     <vue-footer-bar />
   </div>
