@@ -30,11 +30,15 @@ export default {
   ],
   env: process.env,
   plugins: [
-    { src: '~/plugins/vue-gtag'}
+    { src: '~/plugins/vue-gtag'},
     { src: '~/plugins/vue-scroll-reveal', ssr: false }
   ],
   modules: [
     ['vue-scrollto/nuxt', { duration: 1000, easing: 'ease' }],
+    '@nuxtjs/sitemap'
   ],
-  buildModules: ['@nuxtjs/tailwindcss']
+  buildModules: ['@nuxtjs/tailwindcss'],
+  sitemap: {
+    hostname: 'https://www.brianalabs.com'
+  }
 }
