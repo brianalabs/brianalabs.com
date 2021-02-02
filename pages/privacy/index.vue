@@ -128,6 +128,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      title: '개인정보처리방침'
+    }
+  }
+}
+</script>
+
 <style lang="postcss" scoped>
 h1 {
   @apply mt-4 text-2xl font-bold;
