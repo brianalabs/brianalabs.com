@@ -10,6 +10,10 @@ export default {
         name: 'viewport',
         content:
           'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no'
+      },
+      {
+        name: 'description',
+        content: '브리아나는 당신의 성공적인 코인 투자를 위한 인공지능 비서입니다. 머신러닝, 딥러닝으로 학습하는 브리아나의 강력한 기능을 무료로 사용해보세요.'
       }
     ],
     link: [
@@ -26,6 +30,7 @@ export default {
   ],
   env: process.env,
   plugins: [
+    { src: '~/plugins/vue-gtag'}
     { src: '~/plugins/vue-scroll-reveal', ssr: false }
   ],
   modules: [
