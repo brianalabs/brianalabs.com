@@ -82,7 +82,8 @@ export default {
     ]
   },
   components: [
-    { path: '~/components', prefix: 'vue' },
+    { path: '~/components/atoms', prefix: 'vue' },
+    { path: '~/components/organisms', prefix: 'vue' },
   ],
   env: process.env,
   plugins: [

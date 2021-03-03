@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^2.14.12",
-    "vue-gtag": "^1.10.0",
+    "nuxt": "^2.15.2",
+    "vue-gtag": "^1.11.0",
     "vue-scroll-reveal": "^1.0.11",
     "vue-scrollto": "^2.20.0"
   },
