@@ -3,6 +3,8 @@ const DESCRIPTION = '브리아나는 당신의 성공적인 코인 투자를 위
 const BASE_URL = 'https://www.brianalabs.com'
 
 export default {
+  ssr: false,
+  target: 'static',
   telemetry: false,
   head: {
     title: TITLE,
@@ -87,10 +89,12 @@ export default {
   ],
   env: process.env,
   plugins: [
+    { src: '~/plugins/logger'},
     { src: '~/plugins/vue-gtag'},
     { src: '~/plugins/vue-scroll-reveal', ssr: false }
   ],
   modules: [
+    '@nuxtjs/axios',
     ['vue-scrollto/nuxt', { duration: 1000, easing: 'ease' }],
     '@nuxtjs/sitemap'
   ],

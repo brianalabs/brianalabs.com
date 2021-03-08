@@ -239,3 +239,14 @@
     </main>
   </div>
 </template>
+
+<script>
+export default {
+  // async mounted() {
+  //   const data = await this.$axios.get(
+  //     'https://us-central1-briana-302801.cloudfunctions.net/checkHeader'
+  //   )
+  //   console.log(data)
+  // }
+}
+</script>
