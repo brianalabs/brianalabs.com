@@ -3,7 +3,6 @@ const DESCRIPTION = '브리아나는 당신의 성공적인 코인 투자를 위
 const BASE_URL = 'https://www.brianalabs.com'
 
 export default {
-  ssr: false,
   target: 'static',
   telemetry: false,
   head: {
