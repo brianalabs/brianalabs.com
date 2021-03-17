@@ -1,1161 +1,789 @@
 <!doctype html>
 <html data-n-head-ssr>
   <head>
-    <title>브리아나 - 가상화폐를 위한 인공지능 비서</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta data-n-head="ssr" name="robots" content="index, follow"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta data-n-head="ssr" name="description" content="브리아나는 당신의 성공적인 코인 투자를 위한 인공지능 비서입니다. 머신러닝, 딥러닝으로 학습하는 브리아나의 강력한 기능을 무료로 사용해보세요."><meta data-n-head="ssr" name="keywords" content="브리아나, 가상화폐, 비트코인, 코인거래, 코인매매, 코인자동매매, 이더리움, 리플, 이오스, 모니터링"><meta data-n-head="ssr" property="og:title" content="브리아나 - 가상화폐를 위한 인공지능 비서"><meta data-n-head="ssr" property="og:description" content="브리아나는 당신의 성공적인 코인 투자를 위한 인공지능 비서입니다. 머신러닝, 딥러닝으로 학습하는 브리아나의 강력한 기능을 무료로 사용해보세요."><meta data-n-head="ssr" property="og:type" content="website"><meta data-n-head="ssr" property="og:url" content="https://www.brianalabs.com"><meta data-n-head="ssr" property="twitter:title" content="브리아나 - 가상화폐를 위한 인공지능 비서"><meta data-n-head="ssr" property="twitter:description" content="브리아나는 당신의 성공적인 코인 투자를 위한 인공지능 비서입니다. 머신러닝, 딥러닝으로 학습하는 브리아나의 강력한 기능을 무료로 사용해보세요."><meta data-n-head="ssr" property="twitter:site" content="https://www.brianalabs.com"><meta data-n-head="ssr" property="twitter:creator" content="Briana Labs"><link data-n-head="ssr" rel="canonical" href="https://www.brianalabs.com"><link data-n-head="ssr" rel="shortcut icon" href="/favicon.png"><link data-n-head="ssr" rel="apple-touch-icon" href="/favicon.png"><link data-n-head="ssr" rel="icon" href="/favicon.png"><link rel="preload" href="/_nuxt/5ae2806.js" as="script"><link rel="preload" href="/_nuxt/04d3444.js" as="script"><link rel="preload" href="/_nuxt/de15674.js" as="script"><link rel="preload" href="/_nuxt/b419712.js" as="script"><link rel="preload" href="/_nuxt/f836d5b.js" as="script"><link rel="preload" href="/_nuxt/70895fd.js" as="script"><style data-vue-ssr-id="38dfa7e4:0 fa7ff0ca:0">/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI",Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}hr{height:0;color:inherit}abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}button{background-color:transparent;background-image:none}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}fieldset,ol,ul{margin:0;padding:0}ol,ul{list-style:none}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;line-height:1.5}body{font-family:inherit;line-height:inherit}*,:after,:before{box-sizing:border-box;border:0 solid #e5e5e5}hr{border-top-width:1px}img{border-style:solid}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#a3a3a3}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#a3a3a3}input::placeholder,textarea::placeholder{color:#a3a3a3}[role=button],button{cursor:pointer}table{border-collapse:collapse}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button,input,optgroup,select,textarea{padding:0;line-height:inherit;color:inherit}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[type=time],[type=url],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#737373;border-width:1px;border-radius:0;padding:.5rem .75rem;font-size:1rem;line-height:1.5rem}[type=time]:focus,[type=url]:focus,select:focus,textarea:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty, );/*!*//*!*/--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 transparent;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 transparent);border-color:#2563eb}input::-moz-placeholder,textarea::-moz-placeholder{color:#737373;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#737373;opacity:1}input::placeholder,textarea::placeholder{color:#737373;opacity:1}select{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23737373' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;color-adjust:exact}[type=checkbox],select{-webkit-print-color-adjust:exact}[type=checkbox]{-webkit-appearance:none;-moz-appearance:none;appearance:none;padding:0;color-adjust:exact;display:inline-block;vertical-align:middle;background-origin:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;flex-shrink:0;height:1rem;width:1rem;color:#2563eb;background-color:#fff;border-color:#737373;border-width:1px;border-radius:0}[type=checkbox]:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty, );/*!*//*!*/--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 transparent;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 transparent)}[type=checkbox]:checked{background-size:100% 100%;background-position:50%;background-repeat:no-repeat;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3E%3C/svg%3E")}[type=checkbox]:checked,[type=checkbox]:checked:focus,[type=checkbox]:checked:hover{border-color:transparent;background-color:currentColor}[type=checkbox]:indeterminate{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E");border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:50%;background-repeat:no-repeat}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{border-color:transparent;background-color:currentColor}html{word-break:keep-all;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;--tw-bg-opacity:1;background-color:#262626;background-color:rgba(38,38,38,var(--tw-bg-opacity));--tw-text-opacity:1;color:#e5e5e5;color:rgba(229,229,229,var(--tw-text-opacity))}.container{width:100%}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1040px){.container{max-width:1040px}}.bg-primary-500{--tw-bg-opacity:1!important;background-color:#e11d48!important;background-color:rgba(225,29,72,var(--tw-bg-opacity))!important}.bg-primary-800{--tw-bg-opacity:1!important;background-color:#5a0c1d!important;background-color:rgba(90,12,29,var(--tw-bg-opacity))!important}.bg-gray-50{background-color:#fafafa!important;background-color:rgba(250,250,250,var(--tw-bg-opacity))!important}.bg-gray-300,.bg-gray-50{--tw-bg-opacity:1!important}.bg-gray-300{background-color:#d4d4d4!important;background-color:rgba(212,212,212,var(--tw-bg-opacity))!important}.bg-gray-700{background-color:#404040!important;background-color:rgba(64,64,64,var(--tw-bg-opacity))!important}.bg-gray-700,.bg-gray-800{--tw-bg-opacity:1!important}.bg-gray-800{background-color:#262626!important;background-color:rgba(38,38,38,var(--tw-bg-opacity))!important}.hover\:bg-gray-900:hover{--tw-bg-opacity:1!important;background-color:#171717!important;background-color:rgba(23,23,23,var(--tw-bg-opacity))!important}.bg-gradient-to-r{background-image:linear-gradient(90deg,var(--tw-gradient-stops))!important}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))!important}.from-primary-400{--tw-gradient-from:#e74a6d!important;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,rgba(231,74,109,0))!important}.from-primary-500{--tw-gradient-from:#e11d48!important;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,rgba(225,29,72,0))!important}.from-gray-800{--tw-gradient-from:#262626!important;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,rgba(38,38,38,0))!important}.to-primary-500{--tw-gradient-to:#e11d48!important}.to-primary-700{--tw-gradient-to:#87112b!important}.to-gray-700{--tw-gradient-to:#404040!important}.border-transparent{border-color:transparent!important}.border-gray-900{--tw-border-opacity:1!important;border-color:rgba(23,23,23,var(--tw-border-opacity))!important}.border-opacity-40{--tw-border-opacity:0.4!important}.rounded-lg{border-radius:.5rem!important}.rounded-3xl{border-radius:1.5rem!important}.rounded-full{border-radius:9999px!important}.border-2{border-width:2px!important}.border{border-width:1px!important}.cursor-pointer{cursor:pointer!important}.inline-block{display:inline-block!important}.flex{display:flex!important}.inline-flex{display:inline-flex!important}.table{display:table!important}.hidden{display:none!important}.flex-col{flex-direction:column!important}.items-center{align-items:center!important}.justify-center{justify-content:center!important}.justify-between{justify-content:space-between!important}.flex-shrink-0{flex-shrink:0!important}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important}.font-semibold{font-weight:600!important}.font-bold{font-weight:700!important}.font-extrabold{font-weight:800!important}.h-3{height:.75rem!important}.h-4{height:1rem!important}.h-6{height:1.5rem!important}.h-10{height:2.5rem!important}.text-2xs{font-size:.625rem!important}.text-xs{font-size:.75rem!important;line-height:1rem!important}.text-sm{font-size:.875rem!important;line-height:1.25rem!important}.text-xl{font-size:1.25rem!important;line-height:1.75rem!important}.text-2xl{font-size:1.5rem!important;line-height:2rem!important}.text-3xl{font-size:1.875rem!important;line-height:2.25rem!important}.text-4xl{font-size:2.25rem!important;line-height:2.5rem!important}.list-disc{list-style-type:disc!important}.my-10{margin-top:2.5rem!important;margin-bottom:2.5rem!important}.mx-auto{margin-left:auto!important;margin-right:auto!important}.ml-1{margin-left:.25rem!important}.mt-2{margin-top:.5rem!important}.mt-3{margin-top:.75rem!important}.mt-4{margin-top:1rem!important}.mt-6{margin-top:1.5rem!important}.mt-10{margin-top:2.5rem!important}.max-w-xs{max-width:20rem!important}.max-w-md{max-width:28rem!important}.max-w-lg{max-width:32rem!important}.focus\:outline-none:focus{outline:2px solid transparent!important;outline-offset:2px!important}.overflow-hidden{overflow:hidden!important}.p-2{padding:.5rem!important}.p-4{padding:1rem!important}.py-1{padding-top:.25rem!important;padding-bottom:.25rem!important}.py-2{padding-top:.5rem!important;padding-bottom:.5rem!important}.px-2{padding-left:.5rem!important;padding-right:.5rem!important}.py-3{padding-top:.75rem!important;padding-bottom:.75rem!important}.py-4{padding-top:1rem!important;padding-bottom:1rem!important}.px-4{padding-left:1rem!important;padding-right:1rem!important}.px-6{padding-left:1.5rem!important;padding-right:1.5rem!important}.py-10{padding-top:2.5rem!important;padding-bottom:2.5rem!important}.pt-2{padding-top:.5rem!important}.pt-4{padding-top:1rem!important}.pl-4{padding-left:1rem!important}.pr-5{padding-right:1.25rem!important}.pb-10{padding-bottom:2.5rem!important}.pt-14{padding-top:3.5rem!important}.pt-20{padding-top:5rem!important}.pb-20{padding-bottom:5rem!important}.pb-48{padding-bottom:12rem!important}.static{position:static!important}.absolute{position:absolute!important}.relative{position:relative!important}.inset-0{top:0!important;bottom:0!important}.inset-0,.inset-x-0{right:0!important;left:0!important}.top-0{top:0!important}.right-0{right:0!important}.bottom-0{bottom:0!important}*{--tw-shadow:0 0 transparent}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06)!important}.shadow,.shadow-lg{box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow)!important;box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)!important}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)!important}*{--tw-ring-inset:var(--tw-empty, );/*!*//*!*/--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,0.5);--tw-ring-offset-shadow:0 0 transparent;--tw-ring-shadow:0 0 transparent}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)!important;--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)!important;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 transparent!important;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 transparent)!important}.focus\:ring-primary-500:focus{--tw-ring-opacity:1!important;--tw-ring-color:rgba(225,29,72,var(--tw-ring-opacity))!important}.focus\:ring-opacity-50:focus{--tw-ring-opacity:0.5!important}.table-auto{table-layout:auto!important}.text-left{text-align:left!important}.text-center{text-align:center!important}.text-right{text-align:right!important}.text-primary-100{--tw-text-opacity:1!important;color:#f9d2da!important;color:rgba(249,210,218,var(--tw-text-opacity))!important}.text-primary-300{--tw-text-opacity:1!important;color:#ed7791!important;color:rgba(237,119,145,var(--tw-text-opacity))!important}.text-primary-600{--tw-text-opacity:1!important;color:#b4173a!important;color:rgba(180,23,58,var(--tw-text-opacity))!important}.text-gray-100{--tw-text-opacity:1!important;color:#f5f5f5!important;color:rgba(245,245,245,var(--tw-text-opacity))!important}.text-gray-200{--tw-text-opacity:1!important;color:#e5e5e5!important;color:rgba(229,229,229,var(--tw-text-opacity))!important}.text-gray-400{--tw-text-opacity:1!important;color:#a3a3a3!important;color:rgba(163,163,163,var(--tw-text-opacity))!important}.text-gray-500{--tw-text-opacity:1!important;color:#737373!important;color:rgba(115,115,115,var(--tw-text-opacity))!important}.text-gray-600{color:#525252!important;color:rgba(82,82,82,var(--tw-text-opacity))!important}.text-gray-600,.text-red-700{--tw-text-opacity:1!important}.text-red-700{color:#b91c1c!important;color:rgba(185,28,28,var(--tw-text-opacity))!important}.text-green-700{--tw-text-opacity:1!important;color:#15803d!important;color:rgba(21,128,61,var(--tw-text-opacity))!important}.hover\:text-gray-300:hover{--tw-text-opacity:1!important;color:#d4d4d4!important;color:rgba(212,212,212,var(--tw-text-opacity))!important}.uppercase{text-transform:uppercase!important}.hover\:underline:hover{text-decoration:underline!important}.select-none{-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important;user-select:none!important}.align-middle{vertical-align:middle!important}.w-3{width:.75rem!important}.w-4{width:1rem!important}.w-6{width:1.5rem!important}.w-10{width:2.5rem!important}.w-48{width:12rem!important}.w-56{width:14rem!important}.w-full{width:100%!important}.z-10{z-index:10!important}.transform{--tw-translate-x:0!important;--tw-translate-y:0!important;--tw-rotate:0!important;--tw-skew-x:0!important;--tw-skew-y:0!important;--tw-scale-x:1!important;--tw-scale-y:1!important;transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))!important}.-rotate-6{--tw-rotate:-6deg!important}.translate-x-0{--tw-translate-x:0px!important}.translate-x-full{--tw-translate-x:100%!important}.skew-y-0{--tw-skew-y:0deg!important}.transition-all{transition-property:all!important;transition-timing-function:cubic-bezier(.4,0,.2,1)!important;transition-duration:.15s!important}.transition{transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform!important;transition-timing-function:cubic-bezier(.4,0,.2,1)!important;transition-duration:.15s!important}.transition-colors{transition-property:background-color,border-color,color,fill,stroke!important;transition-timing-function:cubic-bezier(.4,0,.2,1)!important;transition-duration:.15s!important}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)!important}.duration-200{transition-duration:.2s!important}.duration-300{transition-duration:.3s!important}@-webkit-keyframes spin{to{transform:rotate(1turn)}}@keyframes spin{to{transform:rotate(1turn)}}@-webkit-keyframes ping{75%,to{transform:scale(2);opacity:0}}@keyframes ping{75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{50%{opacity:.5}}@keyframes pulse{50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}.animate-bounce{-webkit-animation:bounce 1s infinite!important;animation:bounce 1s infinite!important}.text-gradient{-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}.bg-pattern{--tw-bg-opacity:1;background-color:#262626;background-color:rgba(38,38,38,var(--tw-bg-opacity));background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='84' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%2387112b' fill-opacity='.2' fill-rule='evenodd'/%3E%3C/svg%3E")}@media (min-width:768px){.md\:text-xs{font-size:.75rem!important;line-height:1rem!important}.md\:text-sm{font-size:.875rem!important;line-height:1.25rem!important}.md\:text-base{font-size:1rem!important;line-height:1.5rem!important}.md\:text-6xl{font-size:3.75rem!important;line-height:1!important}.md\:mt-10{margin-top:2.5rem!important}.md\:max-w-md{max-width:28rem!important}.md\:py-3{padding-top:.75rem!important;padding-bottom:.75rem!important}.md\:pl-5{padding-left:1.25rem!important}.md\:pt-6{padding-top:1.5rem!important}.md\:pr-6{padding-right:1.5rem!important}.md\:pt-24{padding-top:6rem!important}.md\:w-60{width:15rem!important}.md\:w-72{width:18rem!important}.md\:w-auto{width:auto!important}}@media (min-width:1040px){.lg\:text-lg{font-size:1.125rem!important;line-height:1.75rem!important}.lg\:text-7xl{font-size:4.5rem!important;line-height:1!important}.lg\:max-w-lg{max-width:32rem!important}.lg\:max-w-xl{max-width:36rem!important}.lg\:pt-8{padding-top:2rem!important}.lg\:pt-44{padding-top:11rem!important}.lg\:w-72{width:18rem!important}.lg\:w-96{width:24rem!important}}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><link rel="preload" href="/_nuxt/static/1615798387/market/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1615798387/manifest.js" as="script">
+    <title>거래소</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta data-n-head="ssr" name="robots" content="index, follow"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta data-n-head="ssr" name="description" content="브리아나는 당신의 성공적인 코인 투자를 위한 인공지능 비서입니다. 머신러닝, 딥러닝으로 학습하는 브리아나의 강력한 기능을 무료로 사용해보세요."><meta data-n-head="ssr" name="keywords" content="브리아나, 가상화폐, 비트코인, 코인거래, 코인매매, 코인자동매매, 이더리움, 리플, 이오스, 모니터링"><meta data-n-head="ssr" property="og:title" content="브리아나 - 가상화폐를 위한 인공지능 비서"><meta data-n-head="ssr" property="og:description" content="브리아나는 당신의 성공적인 코인 투자를 위한 인공지능 비서입니다. 머신러닝, 딥러닝으로 학습하는 브리아나의 강력한 기능을 무료로 사용해보세요."><meta data-n-head="ssr" property="og:type" content="website"><meta data-n-head="ssr" property="og:url" content="https://www.brianalabs.com"><meta data-n-head="ssr" property="twitter:title" content="브리아나 - 가상화폐를 위한 인공지능 비서"><meta data-n-head="ssr" property="twitter:description" content="브리아나는 당신의 성공적인 코인 투자를 위한 인공지능 비서입니다. 머신러닝, 딥러닝으로 학습하는 브리아나의 강력한 기능을 무료로 사용해보세요."><meta data-n-head="ssr" property="twitter:site" content="https://www.brianalabs.com"><meta data-n-head="ssr" property="twitter:creator" content="Briana Labs"><link data-n-head="ssr" rel="canonical" href="https://www.brianalabs.com"><link data-n-head="ssr" rel="shortcut icon" href="/favicon.png"><link data-n-head="ssr" rel="apple-touch-icon" href="/favicon.png"><link data-n-head="ssr" rel="icon" href="/favicon.png"><link rel="preload" href="/_nuxt/8509c07.js" as="script"><link rel="preload" href="/_nuxt/04d3444.js" as="script"><link rel="preload" href="/_nuxt/b7a85db.js" as="script"><link rel="preload" href="/_nuxt/b419712.js" as="script"><link rel="preload" href="/_nuxt/004c39e.js" as="script"><link rel="preload" href="/_nuxt/70895fd.js" as="script"><style data-vue-ssr-id="38dfa7e4:0 fa7ff0ca:0">/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI",Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}hr{height:0;color:inherit}abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}button{background-color:transparent;background-image:none}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}fieldset,ol,ul{margin:0;padding:0}ol,ul{list-style:none}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;line-height:1.5}body{font-family:inherit;line-height:inherit}*,:after,:before{box-sizing:border-box;border:0 solid #e5e5e5}hr{border-top-width:1px}img{border-style:solid}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#a3a3a3}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#a3a3a3}input::placeholder,textarea::placeholder{color:#a3a3a3}[role=button],button{cursor:pointer}table{border-collapse:collapse}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button,input,optgroup,select,textarea{padding:0;line-height:inherit;color:inherit}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[type=time],[type=url],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#737373;border-width:1px;border-radius:0;padding:.5rem .75rem;font-size:1rem;line-height:1.5rem}[type=time]:focus,[type=url]:focus,select:focus,textarea:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty, );/*!*//*!*/--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 transparent;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 transparent);border-color:#2563eb}input::-moz-placeholder,textarea::-moz-placeholder{color:#737373;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#737373;opacity:1}input::placeholder,textarea::placeholder{color:#737373;opacity:1}select{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23737373' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;color-adjust:exact}[type=checkbox],select{-webkit-print-color-adjust:exact}[type=checkbox]{-webkit-appearance:none;-moz-appearance:none;appearance:none;padding:0;color-adjust:exact;display:inline-block;vertical-align:middle;background-origin:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;flex-shrink:0;height:1rem;width:1rem;color:#2563eb;background-color:#fff;border-color:#737373;border-width:1px;border-radius:0}[type=checkbox]:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty, );/*!*//*!*/--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 transparent;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 transparent)}[type=checkbox]:checked{background-size:100% 100%;background-position:50%;background-repeat:no-repeat;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3E%3C/svg%3E")}[type=checkbox]:checked,[type=checkbox]:checked:focus,[type=checkbox]:checked:hover{border-color:transparent;background-color:currentColor}[type=checkbox]:indeterminate{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E");border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:50%;background-repeat:no-repeat}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{border-color:transparent;background-color:currentColor}html{word-break:keep-all;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;--tw-bg-opacity:1;background-color:#262626;background-color:rgba(38,38,38,var(--tw-bg-opacity));--tw-text-opacity:1;color:#e5e5e5;color:rgba(229,229,229,var(--tw-text-opacity))}.container{width:100%}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1040px){.container{max-width:1040px}}.bg-primary-500{--tw-bg-opacity:1!important;background-color:#e11d48!important;background-color:rgba(225,29,72,var(--tw-bg-opacity))!important}.bg-primary-800{--tw-bg-opacity:1!important;background-color:#5a0c1d!important;background-color:rgba(90,12,29,var(--tw-bg-opacity))!important}.bg-gray-50{background-color:#fafafa!important;background-color:rgba(250,250,250,var(--tw-bg-opacity))!important}.bg-gray-300,.bg-gray-50{--tw-bg-opacity:1!important}.bg-gray-300{background-color:#d4d4d4!important;background-color:rgba(212,212,212,var(--tw-bg-opacity))!important}.bg-gray-700{background-color:#404040!important;background-color:rgba(64,64,64,var(--tw-bg-opacity))!important}.bg-gray-700,.bg-gray-800{--tw-bg-opacity:1!important}.bg-gray-800{background-color:#262626!important;background-color:rgba(38,38,38,var(--tw-bg-opacity))!important}.hover\:bg-gray-900:hover{--tw-bg-opacity:1!important;background-color:#171717!important;background-color:rgba(23,23,23,var(--tw-bg-opacity))!important}.bg-gradient-to-r{background-image:linear-gradient(90deg,var(--tw-gradient-stops))!important}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))!important}.from-primary-400{--tw-gradient-from:#e74a6d!important;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,rgba(231,74,109,0))!important}.from-primary-500{--tw-gradient-from:#e11d48!important;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,rgba(225,29,72,0))!important}.from-gray-800{--tw-gradient-from:#262626!important;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,rgba(38,38,38,0))!important}.to-primary-500{--tw-gradient-to:#e11d48!important}.to-primary-700{--tw-gradient-to:#87112b!important}.to-gray-700{--tw-gradient-to:#404040!important}.border-transparent{border-color:transparent!important}.border-gray-900{--tw-border-opacity:1!important;border-color:rgba(23,23,23,var(--tw-border-opacity))!important}.border-opacity-40{--tw-border-opacity:0.4!important}.rounded-lg{border-radius:.5rem!important}.rounded-3xl{border-radius:1.5rem!important}.rounded-full{border-radius:9999px!important}.border-2{border-width:2px!important}.border{border-width:1px!important}.cursor-pointer{cursor:pointer!important}.inline-block{display:inline-block!important}.flex{display:flex!important}.inline-flex{display:inline-flex!important}.table{display:table!important}.hidden{display:none!important}.flex-col{flex-direction:column!important}.items-center{align-items:center!important}.justify-center{justify-content:center!important}.justify-between{justify-content:space-between!important}.flex-shrink-0{flex-shrink:0!important}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important}.font-semibold{font-weight:600!important}.font-bold{font-weight:700!important}.font-extrabold{font-weight:800!important}.h-3{height:.75rem!important}.h-4{height:1rem!important}.h-6{height:1.5rem!important}.h-10{height:2.5rem!important}.text-2xs{font-size:.625rem!important}.text-xs{font-size:.75rem!important;line-height:1rem!important}.text-sm{font-size:.875rem!important;line-height:1.25rem!important}.text-xl{font-size:1.25rem!important;line-height:1.75rem!important}.text-2xl{font-size:1.5rem!important;line-height:2rem!important}.text-3xl{font-size:1.875rem!important;line-height:2.25rem!important}.text-4xl{font-size:2.25rem!important;line-height:2.5rem!important}.list-disc{list-style-type:disc!important}.my-10{margin-top:2.5rem!important;margin-bottom:2.5rem!important}.mx-auto{margin-left:auto!important;margin-right:auto!important}.ml-1{margin-left:.25rem!important}.mt-2{margin-top:.5rem!important}.mt-3{margin-top:.75rem!important}.mt-4{margin-top:1rem!important}.mt-6{margin-top:1.5rem!important}.mt-10{margin-top:2.5rem!important}.max-w-xs{max-width:20rem!important}.max-w-md{max-width:28rem!important}.max-w-lg{max-width:32rem!important}.focus\:outline-none:focus{outline:2px solid transparent!important;outline-offset:2px!important}.overflow-hidden{overflow:hidden!important}.p-2{padding:.5rem!important}.p-4{padding:1rem!important}.py-1{padding-top:.25rem!important;padding-bottom:.25rem!important}.py-2{padding-top:.5rem!important;padding-bottom:.5rem!important}.px-2{padding-left:.5rem!important;padding-right:.5rem!important}.py-3{padding-top:.75rem!important;padding-bottom:.75rem!important}.py-4{padding-top:1rem!important;padding-bottom:1rem!important}.px-4{padding-left:1rem!important;padding-right:1rem!important}.px-6{padding-left:1.5rem!important;padding-right:1.5rem!important}.py-10{padding-top:2.5rem!important;padding-bottom:2.5rem!important}.pt-2{padding-top:.5rem!important}.pt-4{padding-top:1rem!important}.pl-4{padding-left:1rem!important}.pr-5{padding-right:1.25rem!important}.pb-10{padding-bottom:2.5rem!important}.pt-14{padding-top:3.5rem!important}.pt-20{padding-top:5rem!important}.pb-20{padding-bottom:5rem!important}.pb-48{padding-bottom:12rem!important}.static{position:static!important}.absolute{position:absolute!important}.relative{position:relative!important}.inset-0{top:0!important;bottom:0!important}.inset-0,.inset-x-0{right:0!important;left:0!important}.top-0{top:0!important}.right-0{right:0!important}.bottom-0{bottom:0!important}*{--tw-shadow:0 0 transparent}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06)!important}.shadow,.shadow-lg{box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow)!important;box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)!important}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)!important}*{--tw-ring-inset:var(--tw-empty, );/*!*//*!*/--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,0.5);--tw-ring-offset-shadow:0 0 transparent;--tw-ring-shadow:0 0 transparent}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)!important;--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)!important;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 transparent!important;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 transparent)!important}.focus\:ring-primary-500:focus{--tw-ring-opacity:1!important;--tw-ring-color:rgba(225,29,72,var(--tw-ring-opacity))!important}.focus\:ring-opacity-50:focus{--tw-ring-opacity:0.5!important}.table-auto{table-layout:auto!important}.text-left{text-align:left!important}.text-center{text-align:center!important}.text-right{text-align:right!important}.text-primary-100{--tw-text-opacity:1!important;color:#f9d2da!important;color:rgba(249,210,218,var(--tw-text-opacity))!important}.text-primary-300{--tw-text-opacity:1!important;color:#ed7791!important;color:rgba(237,119,145,var(--tw-text-opacity))!important}.text-primary-600{--tw-text-opacity:1!important;color:#b4173a!important;color:rgba(180,23,58,var(--tw-text-opacity))!important}.text-gray-100{--tw-text-opacity:1!important;color:#f5f5f5!important;color:rgba(245,245,245,var(--tw-text-opacity))!important}.text-gray-200{--tw-text-opacity:1!important;color:#e5e5e5!important;color:rgba(229,229,229,var(--tw-text-opacity))!important}.text-gray-400{--tw-text-opacity:1!important;color:#a3a3a3!important;color:rgba(163,163,163,var(--tw-text-opacity))!important}.text-gray-500{--tw-text-opacity:1!important;color:#737373!important;color:rgba(115,115,115,var(--tw-text-opacity))!important}.text-gray-600{color:#525252!important;color:rgba(82,82,82,var(--tw-text-opacity))!important}.text-gray-600,.text-red-700{--tw-text-opacity:1!important}.text-red-700{color:#b91c1c!important;color:rgba(185,28,28,var(--tw-text-opacity))!important}.text-green-700{--tw-text-opacity:1!important;color:#15803d!important;color:rgba(21,128,61,var(--tw-text-opacity))!important}.hover\:text-gray-300:hover{--tw-text-opacity:1!important;color:#d4d4d4!important;color:rgba(212,212,212,var(--tw-text-opacity))!important}.uppercase{text-transform:uppercase!important}.hover\:underline:hover{text-decoration:underline!important}.select-none{-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important;user-select:none!important}.align-middle{vertical-align:middle!important}.w-3{width:.75rem!important}.w-4{width:1rem!important}.w-6{width:1.5rem!important}.w-10{width:2.5rem!important}.w-48{width:12rem!important}.w-56{width:14rem!important}.w-full{width:100%!important}.z-10{z-index:10!important}.transform{--tw-translate-x:0!important;--tw-translate-y:0!important;--tw-rotate:0!important;--tw-skew-x:0!important;--tw-skew-y:0!important;--tw-scale-x:1!important;--tw-scale-y:1!important;transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))!important}.-rotate-6{--tw-rotate:-6deg!important}.translate-x-0{--tw-translate-x:0px!important}.translate-x-full{--tw-translate-x:100%!important}.skew-y-0{--tw-skew-y:0deg!important}.transition-all{transition-property:all!important;transition-timing-function:cubic-bezier(.4,0,.2,1)!important;transition-duration:.15s!important}.transition{transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform!important;transition-timing-function:cubic-bezier(.4,0,.2,1)!important;transition-duration:.15s!important}.transition-colors{transition-property:background-color,border-color,color,fill,stroke!important;transition-timing-function:cubic-bezier(.4,0,.2,1)!important;transition-duration:.15s!important}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)!important}.duration-200{transition-duration:.2s!important}.duration-300{transition-duration:.3s!important}@-webkit-keyframes spin{to{transform:rotate(1turn)}}@keyframes spin{to{transform:rotate(1turn)}}@-webkit-keyframes ping{75%,to{transform:scale(2);opacity:0}}@keyframes ping{75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{50%{opacity:.5}}@keyframes pulse{50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}.animate-bounce{-webkit-animation:bounce 1s infinite!important;animation:bounce 1s infinite!important}.text-gradient{-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}.bg-pattern{--tw-bg-opacity:1;background-color:#262626;background-color:rgba(38,38,38,var(--tw-bg-opacity));background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='84' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%2387112b' fill-opacity='.2' fill-rule='evenodd'/%3E%3C/svg%3E")}@media (min-width:768px){.md\:text-xs{font-size:.75rem!important;line-height:1rem!important}.md\:text-sm{font-size:.875rem!important;line-height:1.25rem!important}.md\:text-base{font-size:1rem!important;line-height:1.5rem!important}.md\:text-6xl{font-size:3.75rem!important;line-height:1!important}.md\:mt-10{margin-top:2.5rem!important}.md\:max-w-md{max-width:28rem!important}.md\:py-3{padding-top:.75rem!important;padding-bottom:.75rem!important}.md\:pl-5{padding-left:1.25rem!important}.md\:pt-6{padding-top:1.5rem!important}.md\:pr-6{padding-right:1.5rem!important}.md\:pt-24{padding-top:6rem!important}.md\:w-60{width:15rem!important}.md\:w-72{width:18rem!important}.md\:w-auto{width:auto!important}}@media (min-width:1040px){.lg\:text-lg{font-size:1.125rem!important;line-height:1.75rem!important}.lg\:text-7xl{font-size:4.5rem!important;line-height:1!important}.lg\:max-w-lg{max-width:32rem!important}.lg\:max-w-xl{max-width:36rem!important}.lg\:pt-8{padding-top:2rem!important}.lg\:pt-44{padding-top:11rem!important}.lg\:w-72{width:18rem!important}.lg\:w-96{width:24rem!important}}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><link rel="preload" href="/_nuxt/static/1615974617/market/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1615974617/manifest.js" as="script">
   </head>
   <body>
     <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div id="default__layout"><nav class="absolute inset-x-0 top-0"><div class="container mx-auto px-4"><div class="flex items-center justify-between py-2"><a href="/" class="nuxt-link-active"><img src="/logo.svg" alt="Briana Labs" class="w-48 md:w-60 lg:w-72"></a> <a href="/market" aria-current="page" class="font-semibold nuxt-link-exact-active nuxt-link-active">거래소</a></div></div></nav> <div><div data-fetch-key="0"><div class="pt-14"><div class="container mx-auto px-4"><!----> <div><table class="w-full table-auto mt-2 transition-all"><thead class="text-gray-500 text-xs"><tr><th class="py-1 px-2 text-left">코인</th> <th class="py-1 px-2 text-right">현재가</th> <th class="transition-colors py-1 px-2 text-right cursor-pointer select-none hover:text-gray-300"><span class="align-middle">전일대비</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 inline-block"><path fill-rule="evenodd" d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></th> <th class="transition-colors py-1 px-2 text-right cursor-pointer select-none hover:text-gray-300"><span class="align-middle">거래대금</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 inline-block"><path fill-rule="evenodd" d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></th></tr></thead> <tbody><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  칠리즈
+                  디카르고
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-CHZ
+                  KRW-DKA
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                707
+                295
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -6.97%
+                  -14.49%
                 </div> <div class="text-2xs">
-                  -53
+                  -50
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                1,113,562,746,743원
+                1,508,347,916,964원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   비트코인
                 </div> <div class="text-2xs text-gray-500">
                   KRW-BTC
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                66,439,000
+                62,862,000
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.13%
+                  -4.78%
                 </div> <div class="text-2xs">
-                  -2,148,000
+                  -3,158,000
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                791,170,793,925원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  디카르고
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-DKA
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                389
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +6.58%
-                </div> <div class="text-2xs">
-                  +24
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                644,940,971,642원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  플레이댑
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-PLA
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                807
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -11.03%
-                </div> <div class="text-2xs">
-                  -100
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                613,756,279,116원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  쿼크체인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-QKC
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                67.8
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +77.49%
-                </div> <div class="text-2xs">
-                  +29.6
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                602,416,892,703원
+                775,161,035,847원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   오브스
                 </div> <div class="text-2xs text-gray-500">
                   KRW-ORBS
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                201
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +30.52%
-                </div> <div class="text-2xs">
-                  +47
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                474,081,438,639원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  펀디엑스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-NPXS
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                3.98
+                234
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -6.79%
+                  -25.48%
                 </div> <div class="text-2xs">
-                  -0.29
+                  -80
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                362,579,068,761원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  페이코인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-PCI
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                2,510
-              </td> <td class="py-1 px-2 text-right font-mono"><div>
-                  0.00%
-                </div> <div class="text-2xs">
-                  0
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                337,946,900,366원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  헤데라해시그래프
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-HBAR
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                460
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +8.75%
-                </div> <div class="text-2xs">
-                  +37
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                320,564,603,492원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  보라
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-BORA
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                328
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.48%
-                </div> <div class="text-2xs">
-                  -19
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                295,695,812,901원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  엔진코인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ENJ
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                3,105
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +14.36%
-                </div> <div class="text-2xs">
-                  +390
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                266,688,362,501원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  이더리움
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ETH
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                2,060,000
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.05%
-                </div> <div class="text-2xs">
-                  -87,000
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                253,246,277,584원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  디센트럴랜드
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-MANA
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,160
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -1.69%
-                </div> <div class="text-2xs">
-                  -20
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                246,597,872,888원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  리플
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-XRP
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                497
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -2.74%
-                </div> <div class="text-2xs">
-                  -14
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                221,599,155,003원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  픽셀
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-PXL
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                178
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +1.14%
-                </div> <div class="text-2xs">
-                  +2
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                209,710,007,223원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  비트토렌트
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-BTT
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                1.87
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.59%
-                </div> <div class="text-2xs">
-                  -0.09
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                173,718,705,723원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  코박토큰
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-CBK
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                8,055
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +8.19%
-                </div> <div class="text-2xs">
-                  +610
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                152,463,955,136원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  샌드박스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-SAND
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                741
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.24%
-                </div> <div class="text-2xs">
-                  -41
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                149,351,720,917원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  마로
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-MARO
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                139
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +19.83%
-                </div> <div class="text-2xs">
-                  +23
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                148,776,745,159원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  엔도르
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-EDR
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                51.1
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +50.74%
-                </div> <div class="text-2xs">
-                  +17.2
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                148,080,356,367원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스톰엑스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-STMX
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                23
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -9.09%
-                </div> <div class="text-2xs">
-                  -2.3
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                145,088,127,729원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  퀴즈톡
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-QTCON
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                83.3
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -9.75%
-                </div> <div class="text-2xs">
-                  -9
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                144,119,766,108원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  무비블록
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-MBL
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                13.1
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -9.03%
-                </div> <div class="text-2xs">
-                  -1.3
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                136,841,626,718원
+                751,551,056,449원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   메타디움
                 </div> <div class="text-2xs text-gray-500">
                   KRW-META
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                130
+                172
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -2.99%
+                  -18.10%
                 </div> <div class="text-2xs">
-                  -4
+                  -38
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                135,053,113,027원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스펜드코인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-SPND
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                61.2
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +27.50%
-                </div> <div class="text-2xs">
-                  +13.2
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                131,867,084,716원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  크립토닷컴체인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-CRO
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                199
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.01%
-                </div> <div class="text-2xs">
-                  -15
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                118,499,037,931원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  람다
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-LAMB
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                72.7
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -9.69%
-                </div> <div class="text-2xs">
-                  -7.8
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                114,857,605,364원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  메디블록
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-MED
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                48.4
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.35%
-                </div> <div class="text-2xs">
-                  -2.2
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                114,784,028,224원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  쎄타퓨엘
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-TFUEL
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                396
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -9.38%
-                </div> <div class="text-2xs">
-                  -41
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                113,075,302,168원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  톤
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-TON
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                9,750
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +12.91%
-                </div> <div class="text-2xs">
-                  +1,115
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                107,257,206,559원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  앵커
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ANKR
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                74.5
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.58%
-                </div> <div class="text-2xs">
-                  -4.4
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                107,132,662,912원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  폴리매쓰
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-POLY
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                546
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.04%
-                </div> <div class="text-2xs">
-                  -29
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                100,484,415,534원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  썸씽
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-SSX
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                99.6
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +1.74%
-                </div> <div class="text-2xs">
-                  +1.7
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                98,598,098,264원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  도지코인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-DOGE
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                65
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.27%
-                </div> <div class="text-2xs">
-                  -2.9
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                94,616,320,620원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  넴
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-XEM
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                503
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.71%
-                </div> <div class="text-2xs">
-                  -48
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                90,954,632,760원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  밀크
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-MLK
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                833
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +7.76%
-                </div> <div class="text-2xs">
-                  +60
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                90,596,131,046원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  이오스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-EOS
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                4,390
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.04%
-                </div> <div class="text-2xs">
-                  -185
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                87,167,261,904원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  에이다
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ADA
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,180
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.67%
-                </div> <div class="text-2xs">
-                  -45
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                84,668,979,512원
+                653,786,557,119원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   엠블
                 </div> <div class="text-2xs text-gray-500">
                   KRW-MVL
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                19.4
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +1.57%
-                </div> <div class="text-2xs">
-                  +0.3
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                71,036,086,379원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  왁스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-WAXP
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                311
+                26.6
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.42%
+                  -28.69%
                 </div> <div class="text-2xs">
-                  -11
+                  -10.7
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                69,450,067,255원
+                484,411,604,100원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  알파쿼크
+                  리플
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-AQT
+                  KRW-XRP
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                8,885
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +1.31%
-                </div> <div class="text-2xs">
-                  +115
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                67,038,495,470원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  비트코인캐시
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-BCH
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                610,800
+                522
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.90%
-                </div> <div class="text-2xs">
-                  -31,500
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                64,158,201,954원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  썬더토큰
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-TT
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                19.7
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.90%
-                </div> <div class="text-2xs">
-                  -0.8
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                59,608,749,980원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  폴카닷
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-DOT
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                40,830
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.79%
-                </div> <div class="text-2xs">
-                  -1,610
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                59,508,152,951원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  저스트
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-JST
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                75.1
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.64%
-                </div> <div class="text-2xs">
-                  -7.1
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                59,312,668,016원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스와이프
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-SXP
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                3,340
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.65%
-                </div> <div class="text-2xs">
-                  -200
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                56,979,969,070원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스텔라루멘
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-XLM
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                434
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.77%
-                </div> <div class="text-2xs">
-                  -17
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                56,078,044,196원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스테이터스네트워크토큰
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-SNT
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                114
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -0.87%
-                </div> <div class="text-2xs">
-                  -1
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                55,052,307,174원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  리퍼리움
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-RFR
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                11.7
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.65%
-                </div> <div class="text-2xs">
-                  -0.7
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                53,909,868,450원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  휴먼스케이프
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-HUM
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                92.3
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +2.21%
-                </div> <div class="text-2xs">
-                  +2
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                53,752,242,265원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  캐리프로토콜
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-CRE
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                15
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -0.66%
-                </div> <div class="text-2xs">
-                  -0.1
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                52,449,453,997원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  모스코인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-MOC
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                113
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +6.60%
-                </div> <div class="text-2xs">
-                  +7
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                50,580,744,162원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  가스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-GAS
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                13,840
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.21%
-                </div> <div class="text-2xs">
-                  -760
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                47,090,840,849원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  아르고
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-AERGO
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                300
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.69%
-                </div> <div class="text-2xs">
-                  -25
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                46,278,627,991원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  에스티피
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-STPT
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                79.1
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.83%
-                </div> <div class="text-2xs">
-                  -4.9
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                45,432,998,156원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  온톨로지가스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ONG
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                825
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.54%
-                </div> <div class="text-2xs">
-                  -77
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                39,558,863,420원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  메인프레임
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-MFT
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                19.4
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.49%
-                </div> <div class="text-2xs">
-                  -1.8
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                39,145,299,315원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  에브리피디아
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-IQ
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                15.2
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.88%
-                </div> <div class="text-2xs">
-                  -1.3
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                38,816,139,892원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  골렘
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-GLM
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                507
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.31%
-                </div> <div class="text-2xs">
-                  -40
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                37,214,507,214원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  라이트코인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-LTC
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                239,850
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.62%
-                </div> <div class="text-2xs">
-                  -9,000
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                36,626,026,571원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  트론
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-TRX
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                57.2
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.70%
-                </div> <div class="text-2xs">
-                  -2.2
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                35,114,491,141원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스토리지
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-STORJ
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,030
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +5.10%
-                </div> <div class="text-2xs">
-                  +50
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                33,443,983,508원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  아이오에스티
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-IOST
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                47.5
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.75%
-                </div> <div class="text-2xs">
-                  -2.9
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                33,073,890,861원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  아인스타이늄
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-EMC2
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                349
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.88%
-                </div> <div class="text-2xs">
-                  -34
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                32,641,741,202원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  비체인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-VET
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                81.9
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +6.64%
-                </div> <div class="text-2xs">
-                  +5.1
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                32,389,654,063원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  솔브케어
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-SOLVE
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                275
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.33%
-                </div> <div class="text-2xs">
-                  -25
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                32,245,034,990원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  트웰브쉽스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-TSHP
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                18.4
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +11.52%
-                </div> <div class="text-2xs">
-                  +1.9
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                30,545,072,619원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  질리카
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ZIL
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                179
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -6.77%
-                </div> <div class="text-2xs">
-                  -13
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                30,110,312,083원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  디마켓
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-DMT
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                785
-              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +0.90%
-                </div> <div class="text-2xs">
-                  +7
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                30,042,939,659원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  옵저버
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-OBSR
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                14.9
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.10%
-                </div> <div class="text-2xs">
-                  -0.8
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                29,958,133,666원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  쎄타토큰
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-THETA
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                7,870
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.06%
-                </div> <div class="text-2xs">
-                  -690
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                29,382,732,416원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  룸네트워크
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-LOOM
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                182
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -6.19%
+                  -2.25%
                 </div> <div class="text-2xs">
                   -12
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                29,016,217,034원
+                392,783,039,054원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  피르마체인
+                  에이다
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-FCT2
+                  KRW-ADA
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                152
+                1,400
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -6.17%
+                  -3.78%
                 </div> <div class="text-2xs">
-                  -10
+                  -55
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                28,170,739,834원
+                350,109,351,514원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  파워렛저
+                  칠리즈
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-POWR
+                  KRW-CHZ
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                396
+                554
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.91%
+                  -8.43%
                 </div> <div class="text-2xs">
-                  -34
+                  -51
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                27,583,401,227원
+                284,794,519,342원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  비트코인에스브이
+                  크립토닷컴체인
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-BSV
+                  KRW-CRO
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                220,100
+                210
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.99%
+                  -6.25%
                 </div> <div class="text-2xs">
-                  -9,150
+                  -14
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                27,538,015,867원
+                265,719,519,511원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  시빅
+                  픽셀
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-CVC
+                  KRW-PXL
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                496
+                165
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.70%
+                  -24.66%
                 </div> <div class="text-2xs">
-                  -30
+                  -54
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                27,084,753,977원
+                260,179,963,909원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  세럼
+                  보라
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-SRM
+                  KRW-BORA
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                6,660
+                293
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.63%
+                  -19.73%
                 </div> <div class="text-2xs">
-                  -550
+                  -72
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                26,485,126,312원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  시아코인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-SC
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                15.4
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.52%
-                </div> <div class="text-2xs">
-                  -0.9
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                25,975,332,755원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  애드엑스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ADX
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,135
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.10%
-                </div> <div class="text-2xs">
-                  -100
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                25,117,084,106원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  테조스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-XTZ
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                4,390
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.15%
-                </div> <div class="text-2xs">
-                  -190
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                24,108,381,754원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  센티넬프로토콜
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-UPP
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                126
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.26%
-                </div> <div class="text-2xs">
-                  -7
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                24,057,378,449원
+                254,270,733,302원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   아하토큰
                 </div> <div class="text-2xs text-gray-500">
                   KRW-AHT
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                12.9
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -2.27%
+                20.6
+              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
+                  +8.42%
                 </div> <div class="text-2xs">
-                  -0.3
+                  +1.6
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                23,372,824,355원
+                253,834,045,173원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  엘비알와이크레딧
+                  트웰브쉽스
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-LBC
+                  KRW-TSHP
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                240
+                26.4
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -2.83%
+                  -15.11%
+                </div> <div class="text-2xs">
+                  -4.7
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                238,269,811,577원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  에브리피디아
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-IQ
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                19.7
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -26.22%
                 </div> <div class="text-2xs">
                   -7
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                22,872,899,365원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  아더
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ARDR
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                273
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -6.83%
-                </div> <div class="text-2xs">
-                  -20
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                21,995,110,554원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스팀달러
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-SBD
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                7,625
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.09%
-                </div> <div class="text-2xs">
-                  -325
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                21,859,024,344원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  리스크
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-LSK
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                3,660
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.69%
-                </div> <div class="text-2xs">
-                  -305
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                21,840,119,081원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  아이콘
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ICX
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,920
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.19%
-                </div> <div class="text-2xs">
-                  -105
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                21,408,418,327원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  비트코인골드
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-BTG
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                35,780
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.82%
-                </div> <div class="text-2xs">
-                  -2,210
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                20,217,528,812원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  엘프
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ELF
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                347
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.96%
-                </div> <div class="text-2xs">
-                  -30
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                19,973,805,094원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스팀
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-STEEM
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                509
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -6.61%
-                </div> <div class="text-2xs">
-                  -36
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                19,617,639,238원
+                233,746,915,463원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   시린토큰
                 </div> <div class="text-2xs text-gray-500">
                   KRW-SRN
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                106
+                111
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -18.38%
+                </div> <div class="text-2xs">
+                  -25
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                228,489,707,483원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  썸씽
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SSX
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                123
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -23.13%
+                </div> <div class="text-2xs">
+                  -37
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                202,518,483,689원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  메디블록
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-MED
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                47
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -16.81%
+                </div> <div class="text-2xs">
+                  -9.5
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                192,583,163,166원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스톰엑스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-STMX
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                33.5
               </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +4.95%
+                  +13.95%
                 </div> <div class="text-2xs">
-                  +5
+                  +4.1
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                19,231,178,532원
+                184,754,844,139원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  이더리움클래식
+                  옵저버
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-ETC
+                  KRW-OBSR
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                13,940
+                20.7
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.81%
+                  -14.11%
                 </div> <div class="text-2xs">
-                  -860
+                  -3.4
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                18,884,621,469원
+                175,441,024,901원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  헌트
+                  넴
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-HUNT
+                  KRW-XEM
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                278
+                425
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -8.01%
+                </div> <div class="text-2xs">
+                  -37
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                151,041,086,271원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  이더리움
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ETH
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                2,015,000
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.91%
+                </div> <div class="text-2xs">
+                  -82,000
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                150,656,826,364원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  무비블록
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-MBL
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                13.2
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -21.89%
+                </div> <div class="text-2xs">
+                  -3.7
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                147,655,773,651원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  헤데라해시그래프
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-HBAR
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                343
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -14.25%
+                </div> <div class="text-2xs">
+                  -57
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                138,576,110,920원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  캐리프로토콜
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-CRE
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                18.3
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -13.68%
+                </div> <div class="text-2xs">
+                  -2.9
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                136,480,522,030원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  퀴즈톡
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-QTCON
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                78.8
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -10.86%
+                </div> <div class="text-2xs">
+                  -9.6
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                123,462,703,303원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  저스트
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-JST
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                85.7
               </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
-                  +3.73%
+                  +4.26%
                 </div> <div class="text-2xs">
-                  +10
+                  +3.5
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                18,852,751,986원
+                119,367,690,071원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  온톨로지
+                  앵커
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-ONT
+                  KRW-ANKR
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,175
+                71.3
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.24%
+                  -17.19%
                 </div> <div class="text-2xs">
-                  -65
+                  -14.8
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                18,725,967,770원
+                119,287,865,277원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  네오
+                  쿼크체인
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-NEO
+                  KRW-QKC
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                44,160
+                38.2
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.00%
+                  -23.45%
                 </div> <div class="text-2xs">
-                  -1,840
+                  -11.7
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                18,121,137,667원
+                109,656,361,855원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  오미세고
+                  쎄타퓨엘
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-OMG
+                  KRW-TFUEL
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                5,715
+                346
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.22%
+                  -16.02%
                 </div> <div class="text-2xs">
-                  -190
+                  -66
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                18,074,447,613원
+                108,094,140,464원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  페이코인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-PCI
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                2,225
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -15.24%
+                </div> <div class="text-2xs">
+                  -400
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                104,330,314,156원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  썬더토큰
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-TT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                23.3
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -14.96%
+                </div> <div class="text-2xs">
+                  -4.1
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                102,399,336,767원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  시아코인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SC
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                19.9
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -6.57%
+                </div> <div class="text-2xs">
+                  -1.4
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                101,118,887,583원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  리퍼리움
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-RFR
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                14.8
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -21.28%
+                </div> <div class="text-2xs">
+                  -4
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                98,979,445,016원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  마로
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-MARO
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                132
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -15.92%
+                </div> <div class="text-2xs">
+                  -25
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                97,965,899,848원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  펀디엑스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-NPXS
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                3.58
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -12.47%
+                </div> <div class="text-2xs">
+                  -0.51
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                97,386,103,293원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  트론
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-TRX
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                60.2
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -1.15%
+                </div> <div class="text-2xs">
+                  -0.7
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                96,322,879,839원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  비트토렌트
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-BTT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                1.78
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -5.32%
+                </div> <div class="text-2xs">
+                  -0.1
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                86,620,411,049원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  톤
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-TON
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                8,605
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -9.42%
+                </div> <div class="text-2xs">
+                  -895
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                85,792,287,563원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  샌드박스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SAND
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                584
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -15.36%
+                </div> <div class="text-2xs">
+                  -106
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                75,856,632,210원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  모스코인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-MOC
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                120
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -5.51%
+                </div> <div class="text-2xs">
+                  -7
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                75,181,457,782원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  베이직어텐션토큰
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-BAT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                1,075
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -10.42%
+                </div> <div class="text-2xs">
+                  -125
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                74,365,685,469원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  엔진코인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ENJ
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                2,620
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -11.78%
+                </div> <div class="text-2xs">
+                  -350
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                70,266,582,632원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  플레이댑
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-PLA
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                624
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -11.11%
+                </div> <div class="text-2xs">
+                  -78
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                66,229,361,578원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  폴리매쓰
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-POLY
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                554
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -19.48%
+                </div> <div class="text-2xs">
+                  -134
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                59,054,311,263원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  센티넬프로토콜
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-UPP
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                140
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -16.67%
+                </div> <div class="text-2xs">
+                  -28
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                58,633,734,322원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  이오스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-EOS
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                4,440
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -5.83%
+                </div> <div class="text-2xs">
+                  -275
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                57,531,454,504원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스텔라루멘
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-XLM
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                443
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.70%
+                </div> <div class="text-2xs">
+                  -17
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                57,031,287,693원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  밀크
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-MLK
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                783
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -20.91%
+                </div> <div class="text-2xs">
+                  -207
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                56,332,990,665원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스테이터스네트워크토큰
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SNT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                109
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.54%
+                </div> <div class="text-2xs">
+                  -4
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                55,958,824,383원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  메인프레임
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-MFT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                20.6
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -21.37%
+                </div> <div class="text-2xs">
+                  -5.6
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                55,531,624,612원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  피르마체인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-FCT2
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                148
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -15.43%
+                </div> <div class="text-2xs">
+                  -27
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                53,440,705,776원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  디센트럴랜드
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-MANA
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                888
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -16.23%
+                </div> <div class="text-2xs">
+                  -172
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                52,977,686,582원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  엔도르
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-EDR
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                38.3
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -25.34%
+                </div> <div class="text-2xs">
+                  -13
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                50,833,832,553원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  질리카
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ZIL
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                195
+              </td> <td class="py-1 px-2 text-right font-mono text-green-700"><div>
+                  +7.73%
+                </div> <div class="text-2xs">
+                  +14
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                50,415,229,612원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  왁스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-WAXP
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                230
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -22.30%
+                </div> <div class="text-2xs">
+                  -66
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                48,927,397,229원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  폴카닷
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-DOT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                39,760
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.31%
+                </div> <div class="text-2xs">
+                  -1,360
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                48,064,109,757원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  아르고
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-AERGO
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                292
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -20.65%
+                </div> <div class="text-2xs">
+                  -76
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                47,353,488,053원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  알파쿼크
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-AQT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                8,230
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -7.63%
+                </div> <div class="text-2xs">
+                  -680
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                46,445,960,822원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  휴먼스케이프
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-HUM
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                93.4
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -18.78%
+                </div> <div class="text-2xs">
+                  -21.6
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                46,314,499,037원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  카바
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-KAVA
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                6,940
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -1.28%
+                </div> <div class="text-2xs">
+                  -90
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                43,867,314,207원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  비트코인캐시
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-BCH
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                589,000
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -4.07%
+                </div> <div class="text-2xs">
+                  -25,000
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                41,608,430,880원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  가스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-GAS
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                12,160
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -10.39%
+                </div> <div class="text-2xs">
+                  -1,410
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                41,454,487,959원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  솔브케어
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SOLVE
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                292
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -18.44%
+                </div> <div class="text-2xs">
+                  -66
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                40,187,198,041원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  람다
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-LAMB
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                64.8
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -19.50%
+                </div> <div class="text-2xs">
+                  -15.7
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                38,262,734,326원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  도지코인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-DOGE
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                65.1
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -4.41%
+                </div> <div class="text-2xs">
+                  -3
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                36,700,084,699원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   이그니스
                 </div> <div class="text-2xs text-gray-500">
@@ -1163,203 +791,575 @@
                 </div></td> <td class="py-1 px-2 text-right font-mono">
                 135
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.53%
+                  -6.90%
                 </div> <div class="text-2xs">
-                  -11
+                  -10
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                17,772,714,956원
+                36,080,053,264원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  하이브
+                  아이콘
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-HIVE
+                  KRW-ICX
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                418
+                2,045
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.32%
+                  -8.30%
                 </div> <div class="text-2xs">
-                  -33
+                  -185
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                17,209,864,735원
+                35,998,068,012원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스와이프
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SXP
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                3,450
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -6.12%
+                </div> <div class="text-2xs">
+                  -225
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                35,527,771,158원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  쎄타토큰
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-THETA
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                7,780
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -4.54%
+                </div> <div class="text-2xs">
+                  -370
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                34,635,630,382원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  온톨로지가스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ONG
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                804
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -4.40%
+                </div> <div class="text-2xs">
+                  -37
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                34,573,757,503원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스펜드코인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SPND
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                50
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -16.39%
+                </div> <div class="text-2xs">
+                  -9.8
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                30,512,870,965원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  네오
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-NEO
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                46,250
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -2.49%
+                </div> <div class="text-2xs">
+                  -1,180
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                28,314,915,689원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  아더
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ARDR
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                278
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.47%
+                </div> <div class="text-2xs">
+                  -10
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                26,853,541,509원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  라이트코인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-LTC
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                225,000
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.93%
+                </div> <div class="text-2xs">
+                  -9,200
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                26,668,384,901원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  비체인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-VET
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                81.9
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -5.32%
+                </div> <div class="text-2xs">
+                  -4.6
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                24,331,086,116원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  아이오에스티
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-IOST
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                45.7
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -6.92%
+                </div> <div class="text-2xs">
+                  -3.4
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                22,858,350,072원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  온톨로지
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ONT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                1,305
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -4.74%
+                </div> <div class="text-2xs">
+                  -65
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                21,198,719,723원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   퀀텀
                 </div> <div class="text-2xs text-gray-500">
                   KRW-QTUM
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                6,495
+                6,750
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.20%
+                  -8.60%
                 </div> <div class="text-2xs">
-                  -285
+                  -635
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                16,557,333,561원
+                20,939,574,774원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  아크
+                  테조스
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-ARK
+                  KRW-XTZ
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,560
+                4,410
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -8.24%
+                  -6.17%
                 </div> <div class="text-2xs">
-                  -140
+                  -290
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                16,417,859,023원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  체인링크
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-LINK
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                31,810
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.10%
-                </div> <div class="text-2xs">
-                  -1,360
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                16,221,974,973원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  그로스톨코인
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-GRS
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                772
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -7.32%
-                </div> <div class="text-2xs">
-                  -61
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                16,046,110,224원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  제로엑스
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-ZRX
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,495
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.24%
-                </div> <div class="text-2xs">
-                  -50
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                15,480,977,114원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  카바
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-KAVA
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                6,215
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -2.81%
-                </div> <div class="text-2xs">
-                  -180
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                15,117,757,749원
+                18,835,534,917원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   메탈
                 </div> <div class="text-2xs text-gray-500">
                   KRW-MTL
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,570
+                1,505
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.42%
+                  -15.92%
                 </div> <div class="text-2xs">
-                  -90
+                  -285
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                12,248,194,599원
+                18,547,905,008원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  코모도
+                  코박토큰
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-KMD
+                  KRW-CBK
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                1,605
+                7,205
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.03%
+                  -12.29%
                 </div> <div class="text-2xs">
-                  -85
+                  -1,010
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                10,511,781,716원
+                18,360,058,375원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  스트라티스
+                  에스티피
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-STRAX
+                  KRW-STPT
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                2,395
+                72.2
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -6.08%
+                  -14.76%
                 </div> <div class="text-2xs">
-                  -155
+                  -12.5
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                10,392,280,430원
-              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  베이직어텐션토큰
-                </div> <div class="text-2xs text-gray-500">
-                  KRW-BAT
-                </div></td> <td class="py-1 px-2 text-right font-mono">
-                852
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.27%
-                </div> <div class="text-2xs">
-                  -38
-                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                8,409,259,128원
+                17,429,744,566원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   코스모스
                 </div> <div class="text-2xs text-gray-500">
                   KRW-ATOM
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                21,330
+                22,940
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -0.47%
+                  -6.10%
                 </div> <div class="text-2xs">
-                  -100
+                  -1,490
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                8,397,456,977원
+                16,774,982,681원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  제로엑스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ZRX
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                1,540
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -7.78%
+                </div> <div class="text-2xs">
+                  -130
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                16,204,534,781원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  파워렛저
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-POWR
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                365
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -8.52%
+                </div> <div class="text-2xs">
+                  -34
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                15,541,783,660원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스토리지
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-STORJ
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                943
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -12.28%
+                </div> <div class="text-2xs">
+                  -132
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                15,259,697,869원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  엘비알와이크레딧
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-LBC
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                231
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -14.13%
+                </div> <div class="text-2xs">
+                  -38
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                14,584,382,496원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  룸네트워크
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-LOOM
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                166
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -11.70%
+                </div> <div class="text-2xs">
+                  -22
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                13,985,520,543원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  체인링크
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-LINK
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                31,480
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -2.90%
+                </div> <div class="text-2xs">
+                  -940
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                13,800,555,092원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  오미세고
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-OMG
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                5,830
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.48%
+                </div> <div class="text-2xs">
+                  -210
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                12,108,248,579원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  골렘
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-GLM
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                442
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -11.78%
+                </div> <div class="text-2xs">
+                  -59
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                12,074,991,524원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   어거
                 </div> <div class="text-2xs text-gray-500">
                   KRW-REP
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                34,590
+                33,070
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.10%
+                  -8.34%
                 </div> <div class="text-2xs">
-                  -1,480
+                  -3,010
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                7,891,286,375원
+                11,622,489,300원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
-                  비트코인캐시에이비씨
+                  비트코인에스브이
                 </div> <div class="text-2xs text-gray-500">
-                  KRW-BCHA
+                  KRW-BSV
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                20,280
+                218,450
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.47%
+                  -3.53%
                 </div> <div class="text-2xs">
-                  -730
+                  -8,000
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                7,778,255,324원
+                11,606,727,242원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  헌트
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-HUNT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                261
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -13.86%
+                </div> <div class="text-2xs">
+                  -42
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                11,571,076,511원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  이더리움클래식
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ETC
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                13,550
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -6.16%
+                </div> <div class="text-2xs">
+                  -890
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                11,217,089,186원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  엘프
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ELF
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                329
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -9.62%
+                </div> <div class="text-2xs">
+                  -35
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                11,037,457,317원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스팀
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-STEEM
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                494
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -6.62%
+                </div> <div class="text-2xs">
+                  -35
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                10,928,059,595원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  디마켓
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-DMT
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                720
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -12.83%
+                </div> <div class="text-2xs">
+                  -106
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                10,898,662,512원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  리스크
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-LSK
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                3,800
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.06%
+                </div> <div class="text-2xs">
+                  -120
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                10,675,320,590원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   카이버네트워크
                 </div> <div class="text-2xs text-gray-500">
                   KRW-KNC
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                2,380
-              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -5.37%
+                2,575
+              </td> <td class="py-1 px-2 text-right font-mono"><div>
+                  0.00%
                 </div> <div class="text-2xs">
-                  -135
+                  0
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                7,022,458,198원
+                10,241,368,362원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  비트코인골드
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-BTG
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                33,670
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -5.55%
+                </div> <div class="text-2xs">
+                  -1,980
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                9,979,550,459원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  아인스타이늄
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-EMC2
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                298
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -12.35%
+                </div> <div class="text-2xs">
+                  -42
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                9,918,605,909원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  시빅
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-CVC
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                448
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -8.01%
+                </div> <div class="text-2xs">
+                  -39
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                9,587,362,971원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  세럼
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SRM
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                5,700
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -9.38%
+                </div> <div class="text-2xs">
+                  -590
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                9,230,214,795원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스트라티스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-STRAX
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                2,230
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -7.85%
+                </div> <div class="text-2xs">
+                  -190
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                8,956,021,115원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  하이브
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-HIVE
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                389
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -12.78%
+                </div> <div class="text-2xs">
+                  -57
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                8,048,791,437원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  그로스톨코인
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-GRS
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                744
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -8.60%
+                </div> <div class="text-2xs">
+                  -70
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                7,548,771,163원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  스팀달러
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-SBD
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                7,065
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -10.23%
+                </div> <div class="text-2xs">
+                  -805
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                7,302,964,478원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  아크
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ARK
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                1,420
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -10.69%
+                </div> <div class="text-2xs">
+                  -170
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                6,214,744,109원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  코모도
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-KMD
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                1,585
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -7.58%
+                </div> <div class="text-2xs">
+                  -130
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                6,122,903,650원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  애드엑스
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-ADX
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                1,015
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -10.57%
+                </div> <div class="text-2xs">
+                  -120
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                5,800,071,669원
+              </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
+                  비트코인캐시에이비씨
+                </div> <div class="text-2xs text-gray-500">
+                  KRW-BCHA
+                </div></td> <td class="py-1 px-2 text-right font-mono">
+                20,260
+              </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
+                  -3.02%
+                </div> <div class="text-2xs">
+                  -630
+                </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
+                5,597,995,105원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   웨이브
                 </div> <div class="text-2xs text-gray-500">
                   KRW-WAVES
                 </div></td> <td class="py-1 px-2 text-right font-mono">
-                10,930
+                11,070
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -3.53%
+                  -2.98%
                 </div> <div class="text-2xs">
-                  -400
+                  -340
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                5,428,150,136원
+                5,141,617,398원
               </td></tr><tr class="transition-colors text-2xs md:text-xs text-center hover:bg-gray-900 pt-2"><td class="py-1 px-2 text-left"><div class="text-gray-200 font-semibold">
                   아이오타
                 </div> <div class="text-2xs text-gray-500">
@@ -1367,11 +1367,11 @@
                 </div></td> <td class="py-1 px-2 text-right font-mono">
                 1,540
               </td> <td class="py-1 px-2 text-right font-mono text-red-700"><div>
-                  -4.35%
+                  -7.78%
                 </div> <div class="text-2xs">
-                  -70
+                  -130
                 </div></td> <td class="py-1 px-2 text-right text-gray-500 font-mono">
-                4,271,141,413원
-              </td></tr></tbody></table></div></div></div></div></div> <footer class="text-xs text-gray-600 pt-4 pb-10"><div class="container mx-auto px-4"><div class="flex items-center justify-between"><span>© 2021 Briana Labs. All right reserved.</span> <ul><li><a href="/privacy">개인정보처리방침</a></li></ul></div></div></footer></div></div></div><script>window.__NUXT__=function(t){return{staticAssetsBase:"/_nuxt/static/1615798387",layout:"default",error:t,serverRendered:!0,routePath:"/market",config:{app:{basePath:"/",assetsPath:"/_nuxt/",cdnURL:t}}}}(null)</script><script src="/_nuxt/5ae2806.js" defer></script><script src="/_nuxt/f836d5b.js" defer></script><script src="/_nuxt/70895fd.js" defer></script><script src="/_nuxt/04d3444.js" defer></script><script src="/_nuxt/de15674.js" defer></script><script src="/_nuxt/b419712.js" defer></script>
+                5,122,244,099원
+              </td></tr></tbody></table></div></div></div></div></div> <footer class="text-xs text-gray-600 pt-4 pb-10"><div class="container mx-auto px-4"><div class="flex items-center justify-between"><span>© 2021 Briana Labs. All right reserved.</span> <ul><li><a href="/privacy">개인정보처리방침</a></li></ul></div></div></footer></div></div></div><script>window.__NUXT__=function(t){return{staticAssetsBase:"/_nuxt/static/1615974617",layout:"default",error:t,serverRendered:!0,routePath:"/market",config:{app:{basePath:"/",assetsPath:"/_nuxt/",cdnURL:t}}}}(null)</script><script src="/_nuxt/8509c07.js" defer></script><script src="/_nuxt/004c39e.js" defer></script><script src="/_nuxt/70895fd.js" defer></script><script src="/_nuxt/04d3444.js" defer></script><script src="/_nuxt/b7a85db.js" defer></script><script src="/_nuxt/b419712.js" defer></script>
   </body>
 </html>
