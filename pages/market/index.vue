@@ -120,6 +120,11 @@
 <script>
 import { Upbit, UpbitWebSocket } from 'upbit-client'
 export default {
+  head() {
+    return {
+      title: '거래소'
+    }
+  },
   data() {
     return {
       markets: {},
